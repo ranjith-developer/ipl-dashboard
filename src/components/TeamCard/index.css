@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 12px;
+  background-color: #ffffff33;
+  margin-right: 18px;
+  margin-bottom: 18px;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-image {
+  width: auto;
+  height: 90px;
+}
+
+.card-name {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
